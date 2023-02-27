@@ -1,0 +1,433 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+  
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+  
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+  
+ol, ul {
+    list-style: none;
+}
+  
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body{
+    font-family: 'Playfair Display', serif; 
+    font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3{
+    font-family: 'Playfair Display', serif;
+}
+
+
+/* Верхняя плашка */  
+body{
+    max-width: 1366px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+@media (max-width:1366px)  {
+    body{
+     max-width:100%;
+     margin:0;
+     padding:0;
+    }
+}
+@media (max-width:992px) {
+        body{
+        max-width: 85%;
+        max-height: 706px;
+       } 
+       .conteiner{
+        background-image: none !important;
+       }
+       .models{
+        margin:0px !important;
+       }
+       .popular-models{
+        margin-left: 15% ;
+       }
+       .quality{
+        display: inline-block!important;
+        width: 992px !important;
+        
+       }
+       .image_quality{
+        max-width:500px;
+       }
+       .conteiner-2{
+        display: inline-block!important;;
+       }
+       .info-images{
+        margin-top: 80px;
+       }
+       .footer-conteiner{
+        background-color: #fff  !important;
+        color:#000000!important;
+       }
+
+}
+@media (max-width:767px) {
+    body{
+        max-width: 100%;
+    }
+    .logo{
+        display: inline-block!important;
+        
+    }
+    .parametr2{
+        padding: 0!important;
+    }
+    .popular-models{
+        margin-left: 0!important;
+    }
+    .quality{
+        display: inline!important;
+        
+        
+    }
+    .image_quality{
+        display: none !important;
+    }
+    .conteiner-2{
+        display:block!important;
+    }
+    .info-images{
+        display: none!important;
+    }
+    .links{
+        margin:30px!important;
+        
+    }
+    .footer-conteiner{
+        margin-top: 150px!important;
+        padding-top:0!important;
+        background-color: #444240 !important;
+        color: #fff !important;
+        height: 170px!important;
+    }
+}
+
+.logo{
+    font-family:'Playfair Display', serif;
+    display: flex;
+}
+.icon{
+    margin-top: 36px;
+    margin-left: 123px;
+    display: flex;
+    letter-spacing: 0.14em;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    width: 90px;
+    height: 16px;
+}
+.inline{
+    margin-top:35px;
+    display: flex;
+    font-size: 14px;
+    line-height: 16px;
+    margin-left:266px;
+    justify-content: space-around;
+}
+.inline-block{
+    display: inline-block;
+    vertical-align: top;
+    color:#000000;
+    text-decoration: none;
+    transition: color #cd782d 0.2ms;
+    flex-wrap: wrap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    justify-content: space-around;
+    white-space: pre;
+    
+}
+.inline-block:hover{
+color:#cd722d
+}
+.inline-buttons{
+    margin-left: 300px;
+    display: flex;
+    gap:20px;
+    transition: color 0.2ms;
+}
+.inline-buttons:hover{
+    color: #cd722d;
+}
+
+
+/* Основная часть */
+.conteiner{
+    height: 770px;
+    width:100% ;
+background-image:url("/images/Ellipse.png");
+background-repeat:no-repeat;
+background-size: contain;
+background-position: 50%;
+
+
+}
+.main{
+    display: inline-block;
+    justify-content:space-around ;
+    
+}
+.clocks-header1{
+    display: block;
+    width: 343px;
+    height: 48px;
+    margin-top: 236px;
+    margin-left: 185px;
+    font-size: 45px;
+    color: #1B1A17;
+}
+.clocks-header2{
+    display: block;
+    width: 154px;
+    height: 31px;
+    margin-top: 16px;
+    margin-left: 185px;
+    font-size: 30px;
+    color:#1B1A17;
+}
+.clocks-info{
+    display: block;
+    width: 258px;
+    height: 34px;
+    margin-left: 185px;
+    margin-top:39px;
+    font-size: 14px;
+    color: #808080;
+}
+.katalog{
+display: block;
+text-decoration: none;
+color:#fff;
+background-color: #444240;
+height: 64px;
+width: 205px;
+margin-left: 181px;
+margin-top: 64px;
+padding-top:26px;
+padding-bottom: 27px;
+padding-left:38px;
+padding-right: 38px;
+font-size: 12px;
+transition: color #cd782d 0.2ms;
+}
+.katalog:hover{
+    color: #cd782d;
+}
+
+.main-clocks{
+    display:block;
+    float:right;
+    margin-right: 110px;
+}
+.parametr1{
+    display:block;
+    width:70px;
+    float: left;
+    padding-top:150px;
+    font-size: 18px;
+    line-height: 22px;
+    font-family:'Roboto', sans-serif; ;
+}
+.parametr2{
+    display:block;
+    width:130px;
+    float:right;
+    padding-top: 650px;
+    padding-right: 15px;
+    line-height: 22px;
+    font-size: 16px;
+    text-transform: lowercase;
+    font-family: 'Roboto', sans-serif;;
+}
+
+
+
+/* дополнительные продукты */
+.models{
+    display:inline-block;
+    font-size: 28px;
+    line-height: 43px;
+    width:400px;
+    height: 36px;
+    padding-top: 79px;
+    margin-left: 530px;
+    margin-right: 530px;
+
+}
+.models-link{
+display:inline;
+font-size: 16px;
+text-decoration: underline;
+color: #000000;
+margin-left: 85%;
+
+}
+.popular-models{
+    display:flex;
+    justify-content: center;
+    margin-top:52px;
+}
+.model-1{
+width: 370px;
+height: 467px;
+}
+.model-2{
+    width: 370px;
+    height: 467px; 
+}
+.model-3{
+    width: 370px;
+    height: 467px; 
+}
+.popular-clocks{
+  border-style:ridge;
+  border-radius: 50%;
+  border-color: #dfdada;
+}
+.models-link:hover{
+color:#cd782d;
+}
+.some-more:hover{
+color:#cd782d;
+}
+/* качество */
+.quality{
+height: 540px;
+}
+.image_quality{
+display: flex;
+padding-left:177px;
+}
+.info-quality{
+    display: flex;
+    width: 320px;
+    padding-left: 69px;
+    justify-content: space-between;
+}
+.quality_header{
+    display: inline-block;
+    margin-left: 69px;
+    width: 316px;
+    font-size: 32px;
+    height: 35px;
+}
+.quality_info{
+    display: inline-block;
+    margin-left: 69px;
+    margin-top: 38px;
+    width: 400px;
+    height: 65px;
+    font-size: 16px;
+}
+.katalog1{
+    display: block;
+    margin-left: 69px;
+    margin-top: 45px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #fff;
+    background-color:#D4B098 ;
+    height: 64px;
+    width: 205px;  
+    padding-top:26px;
+    padding-bottom: 27px;
+    padding-left:38px;
+    padding-right: 38px;
+    font-size: 12px;
+    transition: color  0.2ms;
+}
+.katalog1:hover{
+    color:#000000
+}
+/* ссылочки */
+.conteiner-2{
+    display:flex;
+}
+.info-header{
+    display: block;
+    width: 480px;
+    height: 33px;
+    font-size: 32px;
+    margin-top: 100px;
+    
+}
+.info-main{
+    display: block;
+    margin-top:40px ;
+}
+
+.info-links{
+    display: block;
+    width: 376px;
+    height: 43px;
+    font-size: 16px;
+    margin-left:100px;
+    margin-top: 40px;
+}
+.links{
+    display: flex;
+    margin-top:120px ;
+    gap: 20px;
+}
+
+.info-images{
+display: flex;
+margin-left: 170px;
+}
+.info-image-1{
+    position:absolute;
+    width: 242px; 
+    height: 228px;
+    margin-left:70px;
+    float:right;
+}
+.info-image-2{
+    width:242px; 
+    height:222px;
+    margin-left:70px;
+    margin-right: 10px;
+    align-self: flex-end;
+}
+.info-image-3{
+    width:377px;
+    height:460px;
+    
+}
+
+/* подвал */
+.footer-conteiner{
+    max-width: 100%;
+    background-color: #444240;
+    color: #fff;
+    display: flex;
+    height: 275px;
+    margin-top:90px ;
+    padding-top:79px ;
+    justify-content: space-around;
+}
+.footer-info-1 img h3{
+    display: flex;
+    letter-spacing: 0.14em;
+}
